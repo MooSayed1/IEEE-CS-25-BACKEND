@@ -58,8 +58,6 @@ Indexes improve query performance by making data retrieval faster.
 | **Concurrency Control** | Table-level locking (MyISAM), Row-level (InnoDB) | MVCC (Multi-Version Concurrency Control) |
 
 ### 📖 Resources:  
-- [PostgreSQL vs MySQL (DigitalOcean)](https://www.digitalocean.com/community/tutorials/mysql-vs-postgresql)  
-- [PostgreSQL vs MySQL (IBM)](https://www.ibm.com/cloud/blog/mysql-vs-postgresql)  
 - [Official MySQL Docs](https://dev.mysql.com/doc/)  
 - [Official PostgreSQL Docs](https://www.postgresql.org/docs/)  
 
