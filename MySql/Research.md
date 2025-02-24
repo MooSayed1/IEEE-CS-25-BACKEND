@@ -270,3 +270,47 @@ Would you like a more detailed comparison on any of these topics? 🚀
 - [Database Normalization Explained](https://www.educative.io/answers/what-is-database-normalization)
 
 ---
+# Last
+
+# Multi-Version Concurrency Control
+
+Multi-Version Concurrency Control (MVCC) is a database optimization method that makes redundant copies of records to allow for safe concurrent reading and updating of data.  
+MVCC enhances databases by resolving concurrency problems and data locking by preserving older database versions.
+
+## Types of MVCC:
+- **Timestamp-based MVCC**
+- **Snapshot-based MVCC**
+- **History-based MVCC**
+- **Hybrid MVCC**
+
+---
+
+# SQL Trigger
+
+SQL triggers are a critical feature in DBMS that provide automatic execution of a set of SQL statements when specific database events occur, such as `INSERT`, `UPDATE`, or `DELETE` operations.  
+A **Trigger** is a collection of SQL statements with particular names that are stored in system memory.
+
+## Types of SQL Triggers:
+- **Data Definition Language (DDL) triggers**  
+  Triggered by events such as:
+  - `CREATE TABLE`
+  - `CREATE VIEW`
+  - `DROP TABLE`
+  - `DROP VIEW`
+  - `ALTER TABLE`
+
+- **Data Manipulation Language (DML) triggers**  
+  Triggered by operations such as:
+  - `INSERT`
+  - `UPDATE`
+  - `DELETE`
+
+---
+
+# SQL BACKUP DATABASE
+
+The `BACKUP DATABASE` statement is used in **SQL Server** to create a full backup of an existing SQL database.
+
+```sql
+BACKUP DATABASE DatabaseName
+TO DISK = 'file';
